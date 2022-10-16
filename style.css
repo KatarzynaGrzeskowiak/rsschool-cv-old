@@ -4,12 +4,6 @@ body{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-   /*justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin:auto;
-    max-width: 1200px;*/
- 
 }
 
 h2{
@@ -30,11 +24,9 @@ h2{
     display:flex;
     flex-direction: column;
     align-items: center;
-    /*height: 95vh;*/
     float:left;
     width:30%;
     background-color: peachpuff;
-
 }
 
 .header_photo{
@@ -49,6 +41,7 @@ footer{
     max-width: 1200px;
     min-width: 100%;
 }
+
 .footer_container{
     display:flex;
     background-color: aqua;
@@ -76,14 +69,13 @@ footer{
     float:right;
     width:70%;
     background-color: aquamarine;
-    /*height: 95vh;*/
-    
 }
 
 .nav_container{
     margin:auto;
     margin-top: 50px;
 }
+
 .nav_icon{
     width: 50px;
     height:50px;
@@ -104,6 +96,7 @@ footer{
     margin:auto;
     align-items: center;
 }
+
 .nav_container ul li a{
     text-decoration: none;
     font-size: 25px;
